@@ -1,0 +1,39 @@
+ul {
+  display: flex;
+  padding-block: 5%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #afd9f8;
+}
+
+li{
+  width: 90%;
+  background: #FFF;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #000;
+}
