@@ -54,7 +54,7 @@ body {
   overflow: hidden;
   aspect-ratio: 8/5;
   background-color: var(--main-color);
-  background-image: url("/assets/images/illustration-article.svg");
+  background-image: url("assets/images/illustration-article.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -111,5 +111,5 @@ body {
   width: 2.5em;
   height: 2.5em;
   background-size: cover;
-  background-image: url('./assets/images/image-avatar.webp');
+  background-image: url('assets/images/image-avatar.webp');
 }
